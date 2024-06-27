@@ -98,6 +98,21 @@ p {
         border: 1px dotted black; /* Keep the border */
     }
 
+      button {
+        margin-left: 220px;
+        position: relative;
+        background-color: #007bff;
+        border: none;
+        border-radius: 12px;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        font-size: 18px;
+        padding: 10px;
+        transition: background-color .3s ease;
+        width: 25%;
+    }
+     
      
   
 }
