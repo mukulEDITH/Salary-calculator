@@ -12,7 +12,8 @@ function App() {
       <h1>Salary calculator</h1>
        <SalaryCalculator/>
         <p>"How generous of me to calculate your salary down to the last penny."</p>
-       <h4>You're welcome, MUKUL KAUSHAL.</h4>
+       <h4>You're welcome...</h4>
+       <h5>MK</h5>
     </div>
   );
 }
