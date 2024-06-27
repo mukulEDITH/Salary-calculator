@@ -74,3 +74,32 @@ p {
     margin-bottom: 20px;
     border: 1px dotted black;
 }
+@media (min-width: 768px) {
+    .container {
+        max-width: 600px; /* Increase max-width for larger screens */
+    }
+
+    input[type="text"], input[type="number"], button {
+        width: 50%; /* Adjusted for medium-sized screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 800px; /* Increase max-width for larger screens */
+    }
+
+    input[type="text"], input[type="number"], button {
+        width: 40%; /* Adjusted for larger screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px; /* Increase max-width for extra large screens */
+    }
+
+    input[type="text"], input[type="number"], button {
+        width: 30%; /* Adjusted for extra large screens */
+    }
+}
