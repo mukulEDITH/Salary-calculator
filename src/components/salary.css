@@ -4,9 +4,9 @@
     margin: 50px auto;
     padding: 20px;
     border-radius: 18px;
-    background: content-box radial-gradient(green, skyblue);
-    color: #333333;
-    box-shadow: 16px 8px 16px rgba(240, 6, 6, 0.1);
+    background: content-box radial-gradient(green, rgb(137, 199, 223));
+    color: #ba5555;
+    box-shadow: 16px 8px 16px rgba(102, 61, 61, 0.1);
     font-family: Arial, sans-serif;
 }
 
@@ -76,3 +76,28 @@ p {
 }
  
  
+@media (min-width: 375px) and (min-height: 812px) {
+    .container {
+        max-width: 400px; /* Retain the max-width */
+        max-height: 500px; 
+        margin: 150px auto; /* Center horizontally with 50px top margin */
+        padding: 30px; /* Keep the padding */
+        border-radius: 18px; /* Keep the border-radius */
+        background: radial-gradient(rgb(180, 196, 206), rgb(69, 76, 114)); /* Keep the background */
+        color: #8ad3cf; /* Keep the text color */
+        box-shadow: 16px 8px 16px rgba(130, 208, 205, 0.1); /* Keep the box-shadow */
+        font-family: Arial, sans-serif; /* Keep the font-family */
+        align-items: center; /* Center items horizontally */
+        text-align: center; /* Center text content */
+    }
+
+    .gif {
+        width: 45%; /* Keep the width */
+        height: auto; /* Maintain aspect ratio */
+        margin: 10px auto; /* Center horizontally with 20px top margin */
+        border: 1px dotted black; /* Keep the border */
+    }
+
+     
+  
+}
