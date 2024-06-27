@@ -78,9 +78,9 @@ p {
  
 @media (min-width: 375px) and (min-height: 812px) {
     .container {
-        max-width: 400px; /* Retain the max-width */
-        max-height: 500px; 
-        margin: 150px auto; /* Center horizontally with 50px top margin */
+        max-width: 600px; /* Retain the max-width */
+        max-height: 900px; 
+        margin: 250px auto; /* Center horizontally with 50px top margin */
         padding: 30px; /* Keep the padding */
         border-radius: 18px; /* Keep the border-radius */
         background: radial-gradient(rgb(180, 196, 206), rgb(69, 76, 114)); /* Keep the background */
